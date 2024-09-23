@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CourseController {
     @RequestMapping("/courses")
     public String courses(){
-        System.out.println("Welcome to my courses web app");
       return  "course.jsp";
     }
 }
